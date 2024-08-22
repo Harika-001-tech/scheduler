@@ -1,0 +1,19 @@
+Get http://localhost:3001 
+
+###
+Post http://localhost:3001/schedules
+Content-Type: application/json 
+
+{
+    "studentId":2,
+    "mentorId":2,
+    "startTime":"7:30",
+    "duration":30
+
+}
+
+### 
+Get http://localhost:3001/mentors 
+
+###
+Get http://localhost:3001/schedules
